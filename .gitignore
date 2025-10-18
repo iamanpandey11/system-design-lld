@@ -1,0 +1,37 @@
+# Ignore all .exe files
+*.exe
+
+# Optional: ignore object files and other typical build artifacts
+*.o
+*.obj
+*.dll
+*.lib
+*.so
+*.a
+
+# Ignore build directories
+/build/
+/bin/
+/out/
+
+# Ignore CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Optional: ignore IDE files (Visual Studio example)
+*.sdf
+*.suo
+*.vcxproj.*
+*.user
+*.opensdf
+*.log
+*.tlog
+*.pdb
+*.idb
+*.ipch
+*.db
+
+# Ignore VSCode settings
+.vscode/
